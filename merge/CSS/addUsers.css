@@ -1,0 +1,295 @@
+body, h1 {
+    font-family:"Arial",sans-serif;
+}
+
+.Wrapper{
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+
+.Header{
+  width:100%;
+  height: 100px;
+  /*background-color: aqua;*/
+  display: flex;
+  align-items: center;
+  border-style:solid ;
+
+}
+
+.Logo{
+  width:10%;
+  height:80px;
+  margin-left:5%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+
+.MainContentHolder{
+  height:1000px;
+  width:100%;
+  /*background-color: aquamarine;*/
+  display: flex;
+}
+
+.DashboardHolder{
+  width:15%;
+  height:1000px;
+  /*background-color: crimson;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.DashboardOptionsHolder{
+  width:100%;
+  height:auto;
+  /*background-color: bisque;*/
+}
+
+.DashboardOptions{
+  width:98%;
+  height:50px;
+  /*background-color: chartreuse;*/
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+  border-style: solid;
+  margin-top: 1px;
+}
+
+.DashboardRightSideHolder{
+  width:80%;
+  height:1000px;
+  /*background-color: cornflowerblue;*/
+  display: flex;
+  flex-direction: column;
+  margin-left:5%;
+
+}
+
+.SearchbarHolder{
+  width:100%;
+  height:100px;
+  /*background-color: blueviolet;*/
+}
+
+.TitleHolder{
+  width:100%;
+  height:100px;
+  /*background-color: crimson;*/
+  display: flex;
+  margin-top: 20px;
+}
+
+.NameTitle{
+  width:20%;
+  height:100px;
+  /*background-color:azure;*/
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+.EmailTitle{
+  width:20%;
+  height:100px;
+  /*background-color:chartreuse;*/
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+.RoleTitle{
+  width:10%;
+  height:100px;
+  /*background-color:bisque;*/
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+.EmployeeIdTitle{
+  width:20%;
+  height: 100px;
+  /*background-color: blue;*/
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+.ActionsTitle{
+  width:20%;
+  height: 100px;
+  /*background-color: cornsilk;*/
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.NameHolder{
+  width:20%;
+  height:100px;
+  /*background-color: chartreuse;*/
+  display: flex;
+}
+
+.NameImageHolder{
+  width:30%;
+  height: 100px;
+  background-color: blueviolet;
+  margin-left: 5%;
+}
+
+.Name{
+  font-size: 1.5vw;
+  width:60%;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.EmailHolder{
+  width:20%;
+  height:100px;
+  /*background-color:chartreuse;*/
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.RoleHolder{
+  width:10%;
+  height:100px;
+  /*background-color:bisque;*/
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+}
+
+
+.EmployeeIdHolder{
+  width:20%;
+  height: 100px;
+  /*background-color: blue;*/
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.ActionsHolder{
+  width:20%;
+  height: 100px;
+  /*background-color: aqua;*/
+  display: flex;
+}
+
+.Action1{
+  width:30%;
+  height: 100px;
+  /*background-color: red;*/
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+.Action2{
+  width:30%;
+  height: 100px;
+  /*background-color: red;*/
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+.EditHolder{
+  width:100%;
+  height:100px;
+  /*background-color: aqua;*/
+  display: flex;
+  align-items: center;
+  font-size:1.5vw;
+}
+
+.PersonalInformationHolder{
+  width:100%;
+  height:50px;
+  /*background-color: red ;*/
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  font-size:1.5vw;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}
+
+.FormHolder{
+  width:93%;
+  height:auto;
+  /*background-color: blueviolet;*/
+}
+
+.TopSection{
+  width:100%;
+  height:150px;
+  /*background-color: crimson;*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.FieldHolder{
+  width:30%;
+  height:120px;
+  /*background-color: azure;*/
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vw;
+  padding-top:30px;
+}
+
+.FieldDesign{
+  height:50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.RadioButtonHolder{
+  width:70%;
+  height:60px;
+  /*background-color: brown;*/
+  display: flex;
+}
+
+.RadioHolder{
+  display:flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.RadioStyle{
+  width:20px;
+  height:20px;
+}
+
+.SaveChanges{
+  width:20%;
+  height:80px;
+  margin-top: 40px;
+  background-color: azure;
+  font-size: 1.2vw;
+}

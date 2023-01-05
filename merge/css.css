@@ -1,0 +1,45 @@
+body, h1 {
+    font-family:"Arial",sans-serif;
+}
+            
+body {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+.div-content {
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+
+.div-login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 400px;
+    transform: translate(-50%, -50%);
+}
+
+.div-register {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 600px;
+    transform: translate(-50%, -50%);
+}
+
+.table-background {
+    position:relative;
+}
+.table-foreground {
+    height:50%;
+    overflow:auto;  
+    margin-top:20px;
+}
+.table-background table {
+    width:100%;
+}

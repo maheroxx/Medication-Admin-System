@@ -1,0 +1,99 @@
+body, h1 {
+    font-family:"Arial",sans-serif;
+}
+
+.Wrapper{
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+
+.Header{
+  width:100%;
+  height: 100px;
+  /*background-color: aqua;*/
+  display: flex;
+  align-items: center;
+  border-style:solid ;
+
+}
+
+.Logo{
+  width:10%;
+  height:80px;
+  margin-left:5%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+}
+
+
+.MainContentHolder{
+  height:1000px;
+  width:100%;
+  /*background-color: aquamarine;*/
+  display: flex;
+}
+
+.LoginHolder{
+  width:50%;
+  height:900px;
+  /*background-color: crimson;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.LoginHeader{
+  width:100%;
+  height:100px;
+  /*background-color: chartreuse;*/
+  margin-top:150px;
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.LoginDetailsHolder{
+  width:100%;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  /*background-color: blue;*/
+}
+
+.UsernameBar{
+  width:100%;
+  height:100px;
+  background-color: azure;
+}
+
+.UsernameDesign{
+  font-size: 1.5vw;
+  width:100%;
+  height:100px;
+}
+
+.PasswordDesign{
+  font-size: 1.5vw;
+  width:100%;
+  height:100px;
+}
+
+.LoginButton{
+  width:100%;
+  height:100px;
+  background-color: aqua;
+  margin-top:90px;
+}
+
+.LoginDesign{
+  width:100%;
+  height:100px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+}
